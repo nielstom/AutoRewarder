@@ -9,7 +9,7 @@ keyboard.press_and_release('enter')
 sleep(1)
 
 # Run 10 bing searches from edge
-nSearches = 10
+nSearches = 12
 for i in range(nSearches):
     keyboard.write('search ' + str(i))
     keyboard.press_and_release('enter')
