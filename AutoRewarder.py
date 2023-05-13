@@ -3,9 +3,6 @@ from time import sleep
 from random_word import RandomWords
 from random import randint
 
-# Pause 1-5 minutes before running so searches doesn't begin the same time every day
-# sleep(randint(60, 300))
-
 # Open edge
 keyboard.press_and_release('win+r')
 sleep(1)
